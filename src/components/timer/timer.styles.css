@@ -1,0 +1,58 @@
+* {
+  font-family: sans-serif;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 76vh;
+  gap: 55px;
+}
+.button-container {
+  width: 100%;
+  display: flex;
+  gap: 20px; /* space between buttons */
+  justify-content: center; /* optional: center align */
+}
+
+.btn-primary {
+  background-color: bisque;
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #f0c27b;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-input {
+  font-size: 240px;
+  color: white;
+  width: 15%; /* enough for 2 digits */
+  text-align: center;
+  font-weight: bold;
+  border: none; /* remove border */
+  background: transparent; /* no box */
+  outline: none; /* remove blue highlight */
+  appearance: textfield; /* remove number input arrows if you use type=number */
+}
+
+.separator {
+  font-size: 240px;
+  font-weight: bold;
+  color: white;
+}

@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.nav-links-container {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-btn {
+  background-color: bisque;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 15px 25px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 18px;
+}
