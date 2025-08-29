@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   height: 75vh;
-  gap: 55px
+  gap: 55px;
 }
 .button-container {
   width: 100%;
@@ -31,7 +31,7 @@
 }
 
 h1 {
-  font-size: 240px;
+  font-size: clamp(2rem, 15vw, 240px);
   font-family: sans-serif;
   color: white;
   width: 100%;

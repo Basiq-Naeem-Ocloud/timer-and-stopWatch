@@ -7,14 +7,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 76vh;
+  height: 74vh;
   gap: 55px;
+  border: 2px solid red;
 }
 .button-container {
   width: 100%;
   display: flex;
-  gap: 20px; /* space between buttons */
-  justify-content: center; /* optional: center align */
+  gap: 20px;
+  justify-content: center;
 }
 
 .btn-primary {
@@ -40,19 +41,19 @@
 }
 
 .time-input {
-  font-size: 240px;
+  font-size: clamp(2rem, 15vw, 240px); 
   color: white;
-  width: 15%; /* enough for 2 digits */
+  width: 270px;
   text-align: center;
   font-weight: bold;
-  border: none; /* remove border */
-  background: transparent; /* no box */
-  outline: none; /* remove blue highlight */
+  border: none;
+  background: transparent;
+  outline: none;
   appearance: textfield; /* remove number input arrows if you use type=number */
 }
 
 .separator {
-  font-size: 240px;
+  font-size: clamp(2rem, 14vw, 240px); /* scales smoothly */
   font-weight: bold;
   color: white;
 }
